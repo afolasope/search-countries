@@ -15,7 +15,7 @@ const FormComponent = ({ getCountryValue, countries }) => {
     } else return;
   };
 
-  if (countries.length === 0) {
+  if (input && countries.length === 0) {
     return (
       <div className="error">
         <p>No countries matched your search</p>
