@@ -303,7 +303,6 @@ header {
   }
 }
 .error {
-  border: 1px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
