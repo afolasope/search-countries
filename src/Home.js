@@ -54,9 +54,9 @@ function Home() {
       const response = await info.json();
       console.log(response);
 
-      if (response.status >= 200 && response.status <= 399) {
+      if (response) {
         setCountries(response);
-      } else if (response.status === 404) {
+      } else if (!response) {
         setCountries([]);
       }
     } catch (error) {
