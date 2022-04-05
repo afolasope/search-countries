@@ -6,7 +6,6 @@ const GetCountries = ({ countries }) => {
     <>
       <section className="country-cards">
         {countries
-          .slice(0, 20)
           .map(({ name, flag, population, region, capital, id }, index) => {
             // console.log(name);
             return (

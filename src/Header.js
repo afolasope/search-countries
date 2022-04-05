@@ -12,7 +12,6 @@ export const Header = () => {
     } else {
       setTheme('light-theme');
     }
-    console.log();
   };
 
   useEffect(() => {
